@@ -1,9 +1,9 @@
 " Install nerdtree extension
-set rtp+=~/.vim/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'preservim/nerdtree'
-call vundle#end()
+" set rtp+=~/.vim/Vundle.vim
+" call vundle#begin()
+" Plugin 'VundleVim/Vundle.vim'
+" Plugin 'preservim/nerdtree'
+" call vundle#end()
 " Turn on syntax highlighting
 syntax on
 " Turn on smart auto-indentation
@@ -31,11 +31,11 @@ set tabstop=4
 color molokai
 
 " uncomment to turn on line number
-" set number
+set number
 
 " vim is optimized for keyboard-only, but if you insist on using mouse,
 " uncomment the following
-" set mouse+=a
+set mouse+=a
 
 " uncomment the following to show ruler (line,colum position)
 set ruler
