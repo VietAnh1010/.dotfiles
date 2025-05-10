@@ -38,6 +38,4 @@
             (setq tab-width 2)
             (setq indent-tabs-mode nil)
             (setq show-trailing-whitespace t)
-            ;; (setq proof-three-window-mode-policy 'hybrid)
             (electric-indent-local-mode -1)))
-

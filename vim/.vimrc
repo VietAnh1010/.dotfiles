@@ -18,7 +18,7 @@ set backupdir=~/.backup-vim
 
 " Replace all tab with spaces
 set expandtab
-" Wrap long line at reasonable places (only affect 
+" Wrap long line at reasonable places (only affect
 " display, not content)
 set wrap
 set linebreak
@@ -38,19 +38,19 @@ color molokai
 " set mouse+=a
 
 " uncomment the following to show ruler (line,colum position)
-set ruler 
+set ruler
 set number
 set relativenumber
 
 " some advanced options requested by students.  Use them only if
 " you know what you are doing (I don't know what they do!)
-" set hidden 
-" set wildmenu 
-" set showcmd 
-" set hlsearch 
-" set confirm 
-" set visualbell 
-" set ignorecase 
+" set hidden
+" set wildmenu
+" set showcmd
+" set hlsearch
+" set confirm
+" set visualbell
+" set ignorecase
 " set smartcase
 
 " The following should give 16 colors on old Windows machine
@@ -75,4 +75,3 @@ set t_kb=
 " For lightline
 " set laststatus=2
 " let g:lightline = { 'colorscheme': 'monokai' }
-
