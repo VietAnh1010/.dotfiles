@@ -68,6 +68,9 @@ set t_kb=
 " abbr sout System.out.println("");<esc>2hi
 " abbr sop System.out.print("");<esc>2hi
 
+" For ocp-indent
+set rtp^="/home/vanh1010/.opam/default/share/ocp-indent/vim"
+
 "" PLUGINS
 " vim-rainbow
 " let g:rainbow_active = 1
