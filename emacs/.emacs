@@ -31,6 +31,8 @@
 (add-to-list 'load-path "/home/vanh1010/.opam/default/share/emacs/site-lisp")
 (require 'ocp-indent)
 
+(global-unset-key (kbd "C-z"))
+
 ; (setq auto-mode-alist (cons '("\\.v$" . coq-mode) auto-mode-alist))
 (setq exec-path (append exec-path '("/usr/local/bin")))
 (setq proof-three-window-mode-policy 'hybrid)
