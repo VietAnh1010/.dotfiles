@@ -3,3 +3,5 @@
     name = VietAnh1010
 [init]
     defaultBranch = main
+[pull]
+	rebase = false
