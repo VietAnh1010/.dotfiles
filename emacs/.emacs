@@ -28,9 +28,6 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight regular :height 150 :width normal)))))
 
-(add-to-list 'load-path "/home/vanh1010/.opam/default/share/emacs/site-lisp")
-(require 'ocp-indent)
-
 (global-unset-key (kbd "C-z"))
 (setq indent-tabs-mode nil)
 (setq show-trailing-whitespace t)
