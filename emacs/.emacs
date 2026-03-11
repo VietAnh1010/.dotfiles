@@ -32,13 +32,12 @@
 (require 'ocp-indent)
 
 (global-unset-key (kbd "C-z"))
-
-; (setq auto-mode-alist (cons '("\\.v$" . coq-mode) auto-mode-alist))
+(setq indent-tabs-mode nil)
+(setq show-trailing-whitespace t)
 (setq exec-path (append exec-path '("/usr/local/bin")))
 (setq proof-three-window-mode-policy 'hybrid)
+
 (add-hook 'coq-mode-hook
           (lambda ()
             (setq tab-width 2)
-            (setq indent-tabs-mode nil)
-            (setq show-trailing-whitespace t)
             (electric-indent-local-mode -1)))
