@@ -28,8 +28,10 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight regular :height 150 :width normal)))))
 
-(global-unset-key (kbd "C-z")) ; disable the default C-z
-(global-unset-key (kbd "C-x C-z")) ; C-x C-z does the same thing as C-z
+;; disable the default C-z
+(global-unset-key (kbd "C-z"))
+;; C-x C-z does the same thing as C-z
+(global-unset-key (kbd "C-x C-z"))
 (setq-default indent-tabs-mode nil)
 (setq-default show-trailing-whitespace t)
 
@@ -37,4 +39,6 @@
           (lambda ()
             (setq tab-width 2)
             (setq proof-three-window-mode-policy 'hybrid)
+            ;; proof general uses trailing whitespace in goal
+            (setq show-trailing-whitespace nil)
             (electric-indent-local-mode -1)))
